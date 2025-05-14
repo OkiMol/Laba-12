@@ -1,21 +1,25 @@
 ﻿namespace Lab12;
 
-public class Point<T>
+public class ListNode<T>
 {
     public T? Data { get; set; }
     
-    public Point<T>? Next { get; set; }
+    public ListNode<T>? Next { get; set; }
+    
+    public ListNode<T>? Previous { get; set; }
 
-    public Point()
+    public ListNode()
     {
         Data = default(T);
         Next = null;
+        Previous = null;
     }
 
-    public Point(T value)
+    public ListNode(T value)
     {
         Data = value;
         Next = null;
+        Previous = null;
     }
 
     public override string ToString()

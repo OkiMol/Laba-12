@@ -1,40 +1,102 @@
-﻿namespace Lab12;
+﻿using ClassLibraryLab10;
+using System;
 
-public class List<T>
+namespace Lab12;
+
+public class List<T> where T : IInit, new()
 {
-    public Point<T>? begin;
+    public ListNode<T>? begin;
+    public ListNode<T>? end;
 
     public List()
     {
         begin = null;
+        end = null;
+    }
+
+    public List(int length)
+    {
+        for (int i = 0; i < length; i++)
+        {
+            var data = new T();
+            data.RandomInit();
+            var item = new ListNode<T>(data);
+            Add(item.Data); 
+        }
     }
 
     public void Add(T item)
     {
-        var newPoint = new Point<T>(item);
+        var newListNode = new ListNode<T>(item);
         if (begin == null)
-            begin = newPoint;
+            begin = end = newListNode;
         else
-            AddToEnd(newPoint);
+        {
+            end.Next = newListNode;
+            newListNode.Previous = end;
+            end = newListNode;
+        }
     }
 
-    public void AddToEnd(Point<T> item)
+    public void AddToBegin(T item)
     {
-        var pointer = begin;
-        while (pointer.Next != null)
-            pointer = pointer.Next;
-        pointer.Next = item;
+        var newListNode = new ListNode<T>(item);
+        if (begin == null)
+            begin = end = newListNode;
+        else
+        {
+            newListNode.Next = begin;
+            begin.Previous = newListNode;
+            begin = newListNode;
+        }
     }
 
-    public void AddToBegin(Point<T> item)
+    public void AddAt(T item, int listNode)
     {
-        item.Next = begin;
-        begin = item;   
+        if (listNode < 1) throw new ArgumentOutOfRangeException("Номер меньше 1."); ;
+        var newListNode = new ListNode<T>(item);
+        if (begin == null && listNode == 1)
+        {
+            begin = end = newListNode;
+            return;
+        }
+
+        if (listNode == 1)
+        {
+            newListNode.Next = begin;
+            begin.Previous = newListNode;
+            begin = newListNode;
+            return;
+        }
+
+        var current = begin;
+        for (var i = 1; i < listNode; i++)
+        {
+            if (current == null)
+                throw new ArgumentOutOfRangeException("Номер выходит за пределы списка.");
+            current = current.Next;
+        }
+
+        if (current == null)
+        {
+            end.Next = newListNode;
+            newListNode.Previous = end;
+            end = newListNode;
+        }
+        else
+        {
+            newListNode.Next = current;
+            newListNode.Previous = current.Previous;
+            if (current.Previous != null)
+                current.Previous.Next = newListNode;
+            current.Previous = newListNode;
+        }
     }
 
     public void Clear()
     {
         begin = null;
+        end = null;
     }
 
     public bool Contains(T item)
@@ -84,6 +146,21 @@ public class List<T>
         }    
     }
 
+    public void RemoveAfter(T item)
+    {
+        if (begin == null) throw new Exception("Список пуст.");
+
+        var current = begin;
+
+        while (current != null && !current.Data.Equals(item))
+            current = current.Next;
+
+        if (current == null) throw new Exception($"В списке нет элемента с информационным полем {item}.");
+
+        current.Next = null;
+        end = current;
+    }
+
     public int Count
     {
         get
@@ -110,5 +187,20 @@ public class List<T>
             current = current.Next;
             count++;
         }
+    }
+
+    public object Clone()
+    {
+        var newList = new List<T>();
+        if (begin == null) return newList;
+
+        var current = begin;
+        while (current != null)
+        {
+            var newItem = (T)((ICloneable)current.Data!).Clone();
+            newList.Add(newItem);
+            current = current.Next;
+        }
+        return newList;
     }
 }

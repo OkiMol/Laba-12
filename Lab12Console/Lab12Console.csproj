@@ -13,7 +13,7 @@
 
     <ItemGroup>
       <Reference Include="ClassLibraryLab10">
-        <HintPath>..\..\Lab10\ClassLibraryLab10\bin\Debug\net9.0\ClassLibraryLab10.dll</HintPath>
+        <HintPath>..\Lab12ClassLibrary\ClassLibraryLab10.dll</HintPath>
       </Reference>
     </ItemGroup>
 

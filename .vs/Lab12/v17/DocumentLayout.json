@@ -3,8 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\superBuldozer\\Documents\\GitHub\\Lab12\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{64F0CCB6-2684-4D5A-8536-46393582A9A2}|Lab12ClassLibrary\\Lab12ClassLibrary.csproj|c:\\users\\superbuldozer\\documents\\github\\lab12\\lab12classlibrary\\hashtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64F0CCB6-2684-4D5A-8536-46393582A9A2}|Lab12ClassLibrary\\Lab12ClassLibrary.csproj|solutionrelative:lab12classlibrary\\hashtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64F0CCB6-2684-4D5A-8536-46393582A9A2}|Lab12ClassLibrary\\Lab12ClassLibrary.csproj|c:\\users\\superbuldozer\\documents\\github\\lab12\\lab12classlibrary\\list.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64F0CCB6-2684-4D5A-8536-46393582A9A2}|Lab12ClassLibrary\\Lab12ClassLibrary.csproj|solutionrelative:lab12classlibrary\\list.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2C821E3-A2EC-48B3-814B-64314DDFB92C}|Lab12Console\\Lab12Console.csproj|c:\\users\\superbuldozer\\documents\\github\\lab12\\lab12console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2C821E3-A2EC-48B3-814B-64314DDFB92C}|Lab12Console\\Lab12Console.csproj|solutionrelative:lab12console\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64F0CCB6-2684-4D5A-8536-46393582A9A2}|Lab12ClassLibrary\\Lab12ClassLibrary.csproj|c:\\users\\superbuldozer\\documents\\github\\lab12\\lab12classlibrary\\point.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64F0CCB6-2684-4D5A-8536-46393582A9A2}|Lab12ClassLibrary\\Lab12ClassLibrary.csproj|solutionrelative:lab12classlibrary\\point.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64F0CCB6-2684-4D5A-8536-46393582A9A2}|Lab12ClassLibrary\\Lab12ClassLibrary.csproj|c:\\users\\superbuldozer\\documents\\github\\lab12\\lab12classlibrary\\classlibrarylab10.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{64F0CCB6-2684-4D5A-8536-46393582A9A2}|Lab12ClassLibrary\\Lab12ClassLibrary.csproj|solutionrelative:lab12classlibrary\\classlibrarylab10.dll||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64F0CCB6-2684-4D5A-8536-46393582A9A2}|Lab12ClassLibrary\\Lab12ClassLibrary.csproj|c:\\users\\superbuldozer\\documents\\github\\lab12\\lab12classlibrary\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64F0CCB6-2684-4D5A-8536-46393582A9A2}|Lab12ClassLibrary\\Lab12ClassLibrary.csproj|solutionrelative:lab12classlibrary\\node.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F7ACCC9-DDF1-4BD6-B9A7-C328D079C62A}|Lab12Tests\\Lab12Tests.csproj|c:\\users\\superbuldozer\\documents\\github\\lab12\\lab12tests\\test1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F7ACCC9-DDF1-4BD6-B9A7-C328D079C62A}|Lab12Tests\\Lab12Tests.csproj|solutionrelative:lab12tests\\test1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5F7ACCC9-DDF1-4BD6-B9A7-C328D079C62A}|Lab12Tests\\Lab12Tests.csproj|c:\\users\\superbuldozer\\documents\\github\\lab12\\lab12tests\\mstestsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F7ACCC9-DDF1-4BD6-B9A7-C328D079C62A}|Lab12Tests\\Lab12Tests.csproj|solutionrelative:lab12tests\\mstestsettings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -23,15 +51,99 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "HashTable.cs",
+              "DocumentMoniker": "C:\\Users\\superBuldozer\\Documents\\GitHub\\Lab12\\Lab12ClassLibrary\\HashTable.cs",
+              "RelativeDocumentMoniker": "Lab12ClassLibrary\\HashTable.cs",
+              "ToolTip": "C:\\Users\\superBuldozer\\Documents\\GitHub\\Lab12\\Lab12ClassLibrary\\HashTable.cs",
+              "RelativeToolTip": "Lab12ClassLibrary\\HashTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T10:08:00.449Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Node.cs",
+              "DocumentMoniker": "C:\\Users\\superBuldozer\\Documents\\GitHub\\Lab12\\Lab12ClassLibrary\\Node.cs",
+              "RelativeDocumentMoniker": "Lab12ClassLibrary\\Node.cs",
+              "ToolTip": "C:\\Users\\superBuldozer\\Documents\\GitHub\\Lab12\\Lab12ClassLibrary\\Node.cs",
+              "RelativeToolTip": "Lab12ClassLibrary\\Node.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T04:34:00.409Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Test1.cs",
+              "DocumentMoniker": "C:\\Users\\superBuldozer\\Documents\\GitHub\\Lab12\\Lab12Tests\\Test1.cs",
+              "RelativeDocumentMoniker": "Lab12Tests\\Test1.cs",
+              "ToolTip": "C:\\Users\\superBuldozer\\Documents\\GitHub\\Lab12\\Lab12Tests\\Test1.cs",
+              "RelativeToolTip": "Lab12Tests\\Test1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T04:32:57.746Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "MSTestSettings.cs",
+              "DocumentMoniker": "C:\\Users\\superBuldozer\\Documents\\GitHub\\Lab12\\Lab12Tests\\MSTestSettings.cs",
+              "RelativeDocumentMoniker": "Lab12Tests\\MSTestSettings.cs",
+              "ToolTip": "C:\\Users\\superBuldozer\\Documents\\GitHub\\Lab12\\Lab12Tests\\MSTestSettings.cs",
+              "RelativeToolTip": "Lab12Tests\\MSTestSettings.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T04:32:51.973Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Point.cs",
+              "DocumentMoniker": "C:\\Users\\superBuldozer\\Documents\\GitHub\\Lab12\\Lab12ClassLibrary\\Point.cs",
+              "RelativeDocumentMoniker": "Lab12ClassLibrary\\Point.cs",
+              "ToolTip": "C:\\Users\\superBuldozer\\Documents\\GitHub\\Lab12\\Lab12ClassLibrary\\Point.cs",
+              "RelativeToolTip": "Lab12ClassLibrary\\Point.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T07:44:49.879Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ClassLibraryLab10.dll",
+              "DocumentMoniker": "C:\\Users\\superBuldozer\\Documents\\GitHub\\Lab12\\Lab12ClassLibrary\\ClassLibraryLab10.dll",
+              "RelativeDocumentMoniker": "Lab12ClassLibrary\\ClassLibraryLab10.dll",
+              "ToolTip": "C:\\Users\\superBuldozer\\Documents\\GitHub\\Lab12\\Lab12ClassLibrary\\ClassLibraryLab10.dll",
+              "RelativeToolTip": "Lab12ClassLibrary\\ClassLibraryLab10.dll",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001697|",
+              "WhenOpened": "2025-04-21T07:17:10.702Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "List.cs",
+              "DocumentMoniker": "C:\\Users\\superBuldozer\\Documents\\GitHub\\Lab12\\Lab12ClassLibrary\\List.cs",
+              "RelativeDocumentMoniker": "Lab12ClassLibrary\\List.cs",
+              "ToolTip": "C:\\Users\\superBuldozer\\Documents\\GitHub\\Lab12\\Lab12ClassLibrary\\List.cs",
+              "RelativeToolTip": "Lab12ClassLibrary\\List.cs",
+              "ViewState": "AgIAALQAAAAAAAAAAAAiwMcAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-21T07:13:22.427Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\superBuldozer\\Documents\\GitHub\\Lab12\\Lab12Console\\Program.cs",
               "RelativeDocumentMoniker": "Lab12Console\\Program.cs",
               "ToolTip": "C:\\Users\\superBuldozer\\Documents\\GitHub\\Lab12\\Lab12Console\\Program.cs",
               "RelativeToolTip": "Lab12Console\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAIAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABsAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-17T04:59:01.614Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-17T04:59:01.614Z"
             }
           ]
         }

@@ -7,4 +7,10 @@
         <RootNamespace>Lab12</RootNamespace>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Reference Include="ClassLibraryLab10">
+        <HintPath>ClassLibraryLab10.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
 </Project>
